@@ -112,6 +112,7 @@ h4{
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
+	text-align: justify;
 }
 .service{
 	background: #101010;
@@ -225,4 +226,70 @@ h5{
 }
 .c1 a:hover {
 	color: #f9004d;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+  	width: 100%;
+  }
+  .logo {
+  	margin-top: -48%;
+  }
+  .content {
+  	margin-top: 23%;
+  }
+  h1 {
+  	font-size: 30px;
+  }
+  h3 {
+  	font-size: 20px;
+  }
+  h4 {
+  	font-size: 16px;
+  }
+  nav ul li {
+  	display: flex;
+  	justify-content: flex-end;
+  	margin-right: -25%;
+  	margin-top: -10%;
+  }
+  .main {
+  	width: 100%;
+  }
+  .about img {
+  	height: 200px;
+  	width: 200px;
+  	margin-top: 20%;
+  }
+  .about-text h2 {
+  	font-size: 50px;
+  	text-align: center;
+  	margin-left: -60%;
+  }
+  .about-text p {
+  	font-size: 14px;
+  	line-height: 20px;
+  	margin-right: -2%;
+  	margin-left: 5%;
+  }
+  .title h2 {
+  	font-size: 50px;
+  	text-align: center;
+  	margin-left: -85%;
+  }
+  .box {
+  	display: flex;
+  	flex-direction: column;
+  }
+  .gal h2 {
+  	font-size: 50px;
+  	margin-left: -87%;
+  }
+  .img {
+  	margin-left: -3%;
+  }
+  .contact h2 {
+  	font-size: 50px;
+  	margin-left: -90%;
+  }
 }
