@@ -236,7 +236,7 @@ h5{
   	margin-top: -48%;
   }
   .content {
-  	margin-top: 35%;
+  	margin-top: 45%;
   }
   h1 {
   	font-size: 30px;
@@ -275,7 +275,7 @@ h5{
   .title h2 {
   	font-size: 50px;
   	text-align: center;
-  	margin-left: -95%;
+  	margin-left: -100%;
   }
   .box {
   	display: flex;
@@ -283,15 +283,15 @@ h5{
   }
   .gal h2 {
   	font-size: 50px;
-  	margin-left: -95%;
+  	margin-left: -100%;
   }
   .img img {
-  	height: 300px;
+  	height: 350px;
   	width: 300px;
-  	margin-left: -3%;
+  	margin-left: 3%;
   }
   .contact h2 {
   	font-size: 50px;
-  	margin-left: -90%;
+  	margin-left: -100%;
   }
 }
