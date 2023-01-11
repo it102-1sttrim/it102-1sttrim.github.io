@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #1D1D1D;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: black;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: #FFD1BA;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 0;
+}
+
+.p1 {
+  color: #FFD1BA;
+  font-size: 35px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Style the top navigation bar */
+.menu {
+  overflow: hidden;
+  background-color: #FFD1BA;
+}
+
+/* Style the menu links */
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;font-size: 20px;
+}
+
+/* Change color on hover */
+.menu a:hover {
+  background-color: #ff9999;
+  text-decoration: underline;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+.i1 {
+  height: 20%;
+  width: 20%;
+}
+
+.p2 {
+  color: #FFD1BA;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.p3 {
+  color: #FFD1BA;
+  float: right;
+  margin-right: 3%;
+  font-size: 13px;
+  font-family: 'Lora', serif;
+}
+
+.p4 {
+  color: #FFD1BA;
+  font-family: 'Lora', serif;
+}
+
+.p5 {
+  color: #FFD1BA;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Prompt', sans-serif;
+}
+
+.p6 {
+  color: #FFD1BA;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+span {
+  color: #F5B487;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  margin-top: -107%;
+  width: 30%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.h1 {
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.h2 {
+  background-color: #FFD1BA;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.h2 h2 {
+  font-family: 'Syncopate', sans-serif;
+}
+
+.i2 {
+  height: 70%;
+  width: 70%;
+  margin: 10%;
+  border: 1px solid black;
+}
+
+.i2:hover {
+  opacity: 0.5;
+}
+
+.i3 {
+  height: 80%;
+  width: 75%;
+  margin: 10%;
+  border: 1px solid black;
+}
+
+.i3:hover {
+  opacity: 0.5;
+}
+
+.b1 {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.i4 {
+  height: 15px;
+  width: 15px;
+  margin-left: 10%;
+}
+
+.b2 {
+  font-size: 200%;
+  margin-left: 1%;
+  color: #FFD1BA;
+}
+
+.b2:hover {
+  opacity: 0.5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+  background: black;
+  margin-top: 20px;
+  color: #FFD1BA;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  .p3 {
+    font-size: 10px;
+  }
+  .cv {
+    overflow: auto;
+  }
+  .rightcolumn {
+    margin-top: 0%;
+  }
+  .footer {
+    width: 100%;
+    font-size: 10px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu a {
+    float: none;
+    width: 100%;
+  }
+  .i1 {
+    margin-left: 33%;
+    height: 35%;
+    width: 35%;
+  }
+  .p3 {
+    font-size: 6px;
+    float: right;
+    margin-right: 2%;
+  }
+  .rightcolumn {
+    margin-top: 0%;
+  }
+  .footer {
+    width: 100%;
+    font-size: 10px;
+    padding-bottom: 0;
+  }
+}
